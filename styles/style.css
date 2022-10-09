@@ -1,0 +1,100 @@
+/* common global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #a6a6a1;
+    background: #000;
+    font-family: "AS-Expert-04";
+    /* font-family: "Arial, Helvetica, sans-serif"; */
+    font-size: 120%;
+    font-weight: 500;
+}
+
+/* header styles */
+
+.header {
+    display: block;
+    padding: 0 20px;
+    font-weight: 400;
+    letter-spacing: 0.015em;
+}
+
+.header .navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.header .navbar-brand img {
+    width: 28px;
+    height: auto;
+}
+
+/* .header nav #main-menu li a:focus {
+    color: #fff;
+} */
+
+@media only screen and (min-width: 768px) {
+    .header {
+        margin-bottom: 40px;
+    }
+
+    .header .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .header .navbar-brand img {
+        width: 35px;
+        height: auto;
+    }
+}
+
+/* main section styles */
+main {
+    padding: 0 20px;
+    margin-bottom: 80px;
+}
+
+.back2top__button {
+    text-align: right;
+    cursor: pointer;
+}
+
+.back2top__button a {
+    text-decoration: none;
+    display: inline-block;
+    color: #a6a6a1;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* footer styles */
+.footer {
+    width: 100%;
+    padding: 1rem 0;
+    margin-top: 6rem;
+    background-color: #0d0f05;
+}
+
+.footer .legal-terms a {
+    color: #5e5e5b;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+    /* border: 1px solid white; */
+}
+
+.footer .textwidget p {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+}

@@ -1,0 +1,75 @@
+.index-contact,
+.index-contact .contact_title {
+    margin-bottom: 5rem;
+    border-bottom: 1px solid #1f1f1d;
+}
+
+.index-contact .contact_title {
+    font-family: "AS-Expert-04";
+    font-size: 26.7px;
+    letter-spacing: 0em;
+    line-height: 1.1em;
+    font-weight: 300;
+    color: #f7f7f7;
+    border-bottom: 1px solid #3d3d3a;
+    margin-bottom: 35px;
+    padding-bottom: 12px;
+}
+
+.index-contact .form-section {
+    width: 50%;
+    margin: 0 auto 40px;
+    outline: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.form-section input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    resize: none;
+}
+
+.form-section button {
+    width: 200px;
+    background-color: #052d2f;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.form-section button:hover {
+    background-color: rgb(75, 72, 72);
+}
+
+@media only screen and (min-width: 768px) {
+    .index-contact .contact_title {
+        font-size: 50px;
+        letter-spacing: -0.03em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        margin-top: 40px;
+    }
+
+    .index-contact .form-section {
+        width: 100%;
+    }
+
+    .form-section button {
+        width: 80px;
+        font-size: 0.8rem;
+        padding: 5px 5px;
+        margin: 5px;
+    }
+}
